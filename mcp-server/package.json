@@ -1,0 +1,17 @@
+{
+  "name": "tldraw-feedback-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for TLDraw feedback integration",
+  "main": "index.mjs",
+  "bin": {
+    "tldraw-feedback": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ws": "^8.19.0"
+  }
+}
